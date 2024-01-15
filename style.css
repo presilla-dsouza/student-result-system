@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Cambria;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16, 157, 181);
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+
+}
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header img {
+    width: 30%;
+}
+
+.btn1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+
+}
+.btn1:hover {
+    background-color: #575757;
+}
+
+a{
+    width: 100%;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    display: contents;
+}
+a:active{
+    color: black;
+}
+.home_main {
+    height: 80%;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.main_box {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(163, 4, 134);
+    overflow: hidden;
+}
+
+.main_box h2 {
+    padding-block: 10px;
+    background-color: rgb(129, 23, 112);
+    color: white;
+    text-align: center;
+
+}
+
+.main_box form {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#usn {
+    /* border: none; */
+    outline: none;
+    width: 70%;
+    padding: 5px 10px;
+
+
+    /* box-shadow: 1px 2px 2px black; */
+
+}
+
+.header div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* dashboard */
+.dash_header, .header{
+    height: 95%;
+}
+
+
+.dash_header h1 {
+    margin-bottom: 15px;
+}
+
+.dash_header button {
+
+    display: block;
+    height: 70px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px black;
+
+}
+
+.dash_header button:nth-child(1) {
+    background-color: lightblue;
+}
+
+.dash_header button:nth-child(2) {
+    background-color: lightgreen;
+}
+
+.dash_header button:nth-child(3) {
+    background-color: lightsalmon;
+}
+
+.dash_header button:nth-child(4) {
+    background-color: lightpink;
+}
+.dash_header button:hover{
+    background-color: rgb(202, 202, 202);
+    color: white;
+}
+
+.dash_header nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dash_header button {
+    display: block;
+}
+
+.dash_img {
+    display: grid;
+    place-items: center;
+    height: 80%;
+}
+
+.dash_img img {
+    width: 50%;
+}
+
+/* add student page */
+.main_body{
+    margin-top: 10px;
+}
+.main_body div{
+display: flex;
+justify-content: space-between;
+}
+
+.main_body input[type="search"]{
+    font-style: italic;
+    padding-inline: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.main_body table{
+    width: 80%;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 20px;
+border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-shadow: 1px 1px 1px black;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+table thead{
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+table td,th{
+    padding-block: 5px;
+}
+
+/* admin page */
+
+#loginForm input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#errorMessage {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+}

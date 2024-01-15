@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result System | Admin Login</title>
+    <script src="authDash.js"></script>
+</head>
+
+<body>
+    <header class="home_header">
+        <div>
+            <img src="" alt="hello">
+        </div>
+        <div>
+            <button class="btn1">Admin</button>
+        </div>
+
+
+    </header>
+    <main class="home_main">
+        <h1 class="caps">Admin Login</h1>
+        <div class="main_box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" placeholder="Enter username" required>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+                <button type="button" class="btn1" onclick="validateLogin()">Login</button>
+            </form>
+<p id="errorMessage"></p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
